@@ -1,0 +1,41 @@
+//Name: COLE, DALTON
+//class and section: CS53, c
+//date: 10/16/13
+//Description: bonus!
+
+-Purpose:
+This lab is designed to give the user experience with arrays.
+
+Additional Materal:
+None. =D
+
+Assignment:
+Write three array functions.
+
+The first array must be a struct that you create, filled with random things.
+The second array is up to you.
+The third array must be filled with random capital characters in accending
+order
+
+Hints:
+For the max and min of the third array, you may want to look at the ACSII
+table
+
+Submission:
+Submit Lab 09 via the command for your section:
+cssubmit 54 c 8
+cssubmit 54 e 8
+
+Your submission should look similar to:
+
+Struct:
+7, j , 99, p, 8, q
+
+Mine:
+1,2,3,4,5,6,7
+
+Char:
+a,b,b,b,c,d,e,f,g,h,h,h,h,h,z
+
+Bonus(1235)
+Smile. =D

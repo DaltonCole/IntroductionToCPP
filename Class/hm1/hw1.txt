@@ -1,0 +1,58 @@
+//Name: Cole, Dalton
+//Class and Section: CS53, 1A
+//Date: 8/25/2013
+//Description: Assignment 01- make three algorithms
+
+	1.Flat Tire
+Step 1: Get out of the car
+Step 2: Figure out which tire went flat
+Step 3: Take out a lug-wrench, a jack, and an inflated spare tire from the
+trunk, if these do not exist, call for help and skip all of the following
+steps
+Step 4: Put jack in the jack spot near the flat tire
+Step 5: Raise the car by using the lever on the jack
+Step 6: use the lug-wrench to undo the bolts on the flat tire by turning in
+a counter-clockwise direction
+Step 7: Remove tire from car using you manly (or feminim) muscels
+Step 8: Place flat tire on groud in a horizontal position
+Step 9: Place inflated spare tire where the flat tire once resigned
+Step 10: Use the lug-wrench to bolt the bolts on the tire by turning the
+wrench in a clockwise direction
+Step 11: Lower the jack
+Step 12: Remove the jack from the bottom of the car
+Step 13: Take the flat tire, lug-wrench, and jack and place them in the
+trunk in their original positions, with the flat taking the spot of the
+inflatable tire
+Step 14: Close trunk
+Step 15: Enter vihicle
+Step 16: Drive above the recommended speed limit, cussing verbally the whole
+time, trying not to be late to class. (this step is only recommened)
+
+	2. Decimal to Binary
+Step 1: Create a decimal number line and a binary number line (just a
+different area of the paper for each number system)
+Step 2: Divide the decimal number by two, if there is a remaineder, add a 1
+to the left side of the binary number, if not, add a 0
+Step 3: Divide the new decimal number by two, if there is a remainder, add a
+1 to the left of the pre-existing number in the binary line, if not, add a 0
+Step 4: Repeat step 3 until the decimal number reads <0
+Step 5: The decimal number is now a binary number
+	3. Adding Fractions togeather
+Definitions:
+- Numberator = the top number of a fraction
+- Denominator = the bottom number of a fraction
+- Least common multiple(lcm) = the lowest denominator that the two numbers have a
+multiple in common
+-The numberator of the first fraction shall be called N1 and the numerator of
+the second fraction shall be called N2
+-The denominator of the first fraction shall be called D1 and the
+denominator of the second fraction shall be called D2
+Step 1: Find the least common multiple for D1 and D2
+Step 2: The number needed to create the lcm for D1 will be named x
+Step 3: The number needed to create the lcm for D2 will be named y
+step 4: Multiply N1 and D1 each by x to find the new N1 and D1
+step 5: Multiply N2 and D2 each by y to find the new N2 and D2, at this
+point D1 should equal D2, if not, go back to step 1
+Step 6: Add N1 and N2 togeather to achive N3
+Step 7: Place N3 over D1 to make a fraction 
+Step 8: This fraction is now the two previous fractions added togeather

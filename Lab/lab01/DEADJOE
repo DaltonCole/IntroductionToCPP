@@ -1,0 +1,40 @@
+
+*** These modified files were found in JOE when it aborted on Tue Aug 27 18:02:47 2013
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+//Name: COLE, DALTON
+//Class and Section: CS 54, Section 3C
+//Date: 8-27-2013
+//Description: Oh no! My code isn't compiling!!! Can anybody help me?
+
+#include <isostream>
+using namespace std;
+
+int main()
+{
+  //Declarations
+  float length, width;
+  flaot area;
+  
+  //Prompt user for length
+  cout << "Please enter the length of the rectangle: " << end1;
+  
+  cin << length;
+  
+  //Prompt user for width
+  cout << "Please enter the width of the rectangle: " endl;
+  
+  cin >> Width;
+  
+  //Calculate area
+  area = length * width;
+  
+  //Output results
+  cout << "You entered length: " << length << " and width: ;
+  cout << width << " which results in area: " << area << ".";
+  cout << endl
+  
+  /end program
+  return 0;
+}

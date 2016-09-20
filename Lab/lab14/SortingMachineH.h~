@@ -1,0 +1,22 @@
+// Name: COLE, DALTON
+// Class & Section: CS54, Section c
+// Date: Dec. 3 2013
+// Description:
+
+#ifndef SORTSH_H
+#define SORTSH_H
+
+template<typename T>
+struct SortingMachine
+{
+  private:
+    int m_size;
+    const static int m_MARKER = 50;
+	
+  public:
+    SortingMachine(const int size): m_size(size) {}
+    void sort(T array[]);
+};
+
+#include "SortingMachineHPP.hpp"
+#endif

@@ -1,0 +1,64 @@
+//Name: COLE, DALTON
+//Class and Section: CS54, C
+//Date: 10/22/2013
+//Description: Lab 09, function file. Request user's domain, name, user name
+//	 and password and outputs rather or not they are allowed to log in.
+
+#include "lab09.h"
+
+bool Allow(const char Username[], const char Password[])
+{
+  bool allow_u;
+  bool allow_p;
+  bool allow;
+  
+  //allowed username?
+  allow_u = Allow_user(Username);
+  
+  //allowed password?
+  if (strcmp(Password, PASSWORD) == 0)
+    allow_p = true;
+  else
+    allow_p = false;
+  
+  //if they are, allow is true  
+  if (allow_p == true && allow_u == true)
+    allow = true;
+  else
+    allow = false;
+  
+  return allow;
+}
+
+bool Allow_user(const char Username[])
+{
+  bool allow_u;
+
+  //allowed users
+  if(strcmp(Username, "etnc6d") == 0 || 
+     strcmp(Username, "c_price") == 0 ||
+     strcmp(Username, "Amy_Briggs") == 0 ||
+     strcmp(Username, "lasanthi") == 0 ||
+     strcmp(Username, "nateEloe") == 0 ||
+     strcmp(Username, "eric") == 0)
+  {
+    allow_u = true;
+  }
+  else
+    allow_u = false;
+     
+  return allow_u; 
+}
+
+void make_caps(char Domain[])
+{
+  char c;
+  
+  //turns char to cap char
+  for (int i = 0; i < SIZE1; i++)
+  {
+    c = Domain[i];
+    Domain[i] = toupper(c);
+  }
+}
+

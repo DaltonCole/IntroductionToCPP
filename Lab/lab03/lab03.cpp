@@ -1,0 +1,59 @@
+//Name: COLE, DALTON
+//Class and Section: CS 54, section C
+//Date 9/10/13
+//Description: create a loop that will ask the user if they want to see if a
+//	number is dividible by 7, if they want a message, or to exit
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  const short divider = 49;
+  char choice;
+  int num, divided_num;
+
+  do
+  {
+    //prompts user for what they want to happen
+  cout << "Enter the letter associated with what you want." << endl;
+  cout << "(a)Do you want to know if a number is divisible by 49" << endl;
+  cout << "(b)Do you want to output a message?" << endl;
+  cout << "(c)Exit" << endl;
+  cin >> choice;
+
+  //seperates choices
+  if (choice == 'a' || choice == 'A')
+  {
+    //promps the user for number they want to find out about
+    cout << "Please enter the number that you want to see if ";
+    cout << "it is divisible by 49" << endl;;
+    cin >> num;
+    
+    //mods the imputed number
+    divided_num = num % divider;
+    
+    //seperates is and is not divisible by 49
+    if ((divided_num == (0)))
+    cout << num << " is divisible by 49" << endl << endl;
+    else
+    cout << num << " is NOT divisible by 49" << endl << endl;
+  }
+  else if (choice == 'b' || choice == 'B') 
+  {
+  //if they chose choice b, then output   
+  cout << "Bonus phrase: Bjarne Stroustrup." << endl << endl;
+  }
+  else 
+    {
+      //if they chose choice c, then exit
+      if (choice == 'c' || choice == 'C')
+      cout << "Have a nice day!" << endl;
+      else
+      cout << "Please enter a correct letter." << endl << endl;
+    } 
+  } while (choice != 'c');
+
+  //end program
+  return 0;
+}

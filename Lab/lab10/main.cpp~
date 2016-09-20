@@ -1,0 +1,27 @@
+//Name: COLE, DALTON
+//Class and section: CS54, C
+//Date: 10/29/13
+//Description: Lab10 header
+
+#include "lab10.h"
+
+int main()
+{
+  
+  ifstream input("encoded.input");
+  ofstream output("decoded.output");
+  ofstream submitOutput("message.txt");
+  
+  if(!input.good())
+    cerr << "File not found!" << endl;
+  
+  decode(input, output, submitOutput);
+  
+  input.close();
+  output.close();
+  submitOutput.close();
+  
+  cout << "Done!" << endl;
+  
+  return 0;
+}
